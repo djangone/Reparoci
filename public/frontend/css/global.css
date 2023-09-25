@@ -1,0 +1,16 @@
+:root {
+    /* Colors */
+    --primarycolor: #0468a0;
+    --secondarycolor: #dbad09;
+    --whitecolor: #ffffff;
+    --graycolor: #b7c8d1;
+
+    /* Fonts */
+    --middletitle: 500 12px "Montserrat", sans-serif;
+
+    /* Effects */
+}
+
+a{
+    text-decoration: none;
+}
