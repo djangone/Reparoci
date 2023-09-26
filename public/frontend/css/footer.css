@@ -1,0 +1,1611 @@
+.footer,
+.footer * {
+    box-sizing: border-box;
+}
+.footer {
+    background: #0468a0;
+    padding: 20px 24px 20px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.footer-prensentation {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 310px;
+    position: relative;
+}
+.footer-presentation-groupe {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.footer-logo-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+}
+.logo-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.clip-0-1-12 {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+.group {
+    align-self: stretch;
+    flex: 1;
+    position: absolute;
+    left: 3.87px;
+    top: 10.92px;
+    overflow: visible;
+}
+.footer-presentation {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.footersubtitle {
+    color: #ffffff;
+    text-align: left;
+    font: 400 14px "Montserrat", sans-serif;
+    position: relative;
+    flex: 1;
+}
+.footer-social-link {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.facebook-logo {
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+.google-logo {
+    padding: 4px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+.linkedin-logo {
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+.twitter-logo {
+    padding: 3px 1px 3px 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+.footer-navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex: 1;
+    position: relative;
+}
+.footer-menu-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.footer-menu-title {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.menutitle {
+    color: #ffffff;
+    text-align: left;
+    font: 600 16px "Montserrat", sans-serif;
+    position: relative;
+    flex: 1;
+}
+.footer-menu-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.footer-menu-link {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.menu-item {
+    color: #ffffff;
+    text-align: left;
+    font: 400 12px "Montserrat", sans-serif;
+    position: relative;
+    flex: 1;
+}
+
+
+@media (max-width: 575px){
+    .footer-576, .footer-576 * {
+        box-sizing: border-box;
+    }
+    .footer-576 {
+        background: #0468a0;
+        padding: 20px 24px 20px 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 588px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footer-prensentation {
+        display: flex;
+        flex-direction: column;
+        gap: 27px;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footer-presentation-groupe {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footer-logo-content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .logo-footer {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .clip-0-1-12 {
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+
+    .group {
+        align-self: stretch;
+        flex: 1;
+        position: absolute;
+        left: 3.55px;
+        top: 8.74px;
+        overflow: visible;
+    }
+
+    .footer-presentation {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footersubtitle {
+        color: #ffffff;
+        text-align: center;
+        font: 400 12px 'Montserrat', sans-serif;
+        position: relative;
+        flex: 1;
+    }
+
+    .footer-social-link {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        align-items: center;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .facebook-logo {
+        padding: 3px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+
+    .google-logo {
+        padding: 4px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+
+    .linkedin-logo {
+        padding: 3px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+
+    .twitter-logo {
+        padding: 3px 1px 3px 1px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+
+    .footer-navigation {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footer-menu-container {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footer-menu-title {
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+        align-items: flex-start;
+        justify-content: center;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .menutitle {
+        color: #ffffff;
+        text-align: center;
+        font: 600 16px 'Montserrat', sans-serif;
+        position: relative;
+        flex: 1;
+    }
+
+    .footer-menu-content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footer-menu-link {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .menu-item {
+        color: #ffffff;
+        text-align: left;
+        font: 400 12px 'Montserrat', sans-serif;
+        position: relative;
+    }
+
+
+
+
+
+}
+@media (min-width: 576px){
+
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footer-prensentation {
+        display: flex;
+        flex-direction: row;
+        gap: 27px;
+        align-items: center;
+        justify-content: center;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footer-presentation-groupe {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex: 1;
+        position: relative;
+    }
+
+    .footer-logo-content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .logo-footer {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .clip-0-1-12 {
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+
+    .group {
+        align-self: stretch;
+        flex: 1;
+        position: absolute;
+        left: 3.55px;
+        top: 8.74px;
+        overflow: visible;
+    }
+
+    .footer-presentation {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footersubtitle {
+        color: #ffffff;
+        text-align: left;
+        font: 400 12px 'Montserrat', sans-serif;
+        position: relative;
+        flex: 1;
+    }
+
+    .footer-social-link {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        align-items: center;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .facebook-logo {
+        padding: 3px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+
+    .google-logo {
+        padding: 4px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+
+    .linkedin-logo {
+        padding: 3px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+
+    .twitter-logo {
+        padding: 3px 1px 3px 1px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+
+    .footer-navigation {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        align-items: flex-start;
+        justify-content: flex-end;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footer-menu-container {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: flex-end;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footer-menu-title {
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+        align-items: flex-start;
+        justify-content: center;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .menutitle {
+        color: #ffffff;
+        text-align: left;
+        font: 600 16px 'Montserrat', sans-serif;
+        position: relative;
+        flex: 1;
+    }
+
+    .footer-menu-content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footer-menu-link {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .menu-item {
+        color: #ffffff;
+        text-align: left;
+        font: 400 12px 'Montserrat', sans-serif;
+        position: relative;
+    }
+
+}
+@media (min-width: 768px){
+
+
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footer-prensentation {
+        display: flex;
+        flex-direction: column;
+        gap: 27px;
+        align-items: center;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        width: 180px;
+        position: relative;
+    }
+
+    .footer-presentation-groupe {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footer-logo-content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+        flex-shrink: 0;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .logo-footer {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .clip-0-1-12 {
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+
+    .group {
+        align-self: stretch;
+        flex: 1;
+        position: absolute;
+        left: 3.55px;
+        top: 8.74px;
+        overflow: visible;
+    }
+
+    .footer-presentation {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footersubtitle {
+        color: #ffffff;
+        text-align: left;
+        font: 400 12px 'Montserrat', sans-serif;
+        position: relative;
+        flex: 1;
+    }
+
+    .footer-social-link {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        align-items: center;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .facebook-logo {
+        padding: 3px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+
+    .google-logo {
+        padding: 4px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+
+    .linkedin-logo {
+        padding: 3px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+
+    .twitter-logo {
+        padding: 3px 1px 3px 1px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+
+    .footer-navigation {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        align-items: flex-start;
+        justify-content: flex-end;
+        flex: 1;
+        position: relative;
+    }
+
+    .footer-menu-container {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: flex-end;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footer-menu-title {
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+        align-items: flex-start;
+        justify-content: center;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .menutitle {
+        color: #ffffff;
+        text-align: left;
+        font: 600 16px 'Montserrat', sans-serif;
+        position: relative;
+        flex: 1;
+    }
+
+    .footer-menu-content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footer-menu-link {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .menu-item {
+        color: #ffffff;
+        text-align: left;
+        font: 400 12px 'Montserrat', sans-serif;
+        position: relative;
+    }
+
+    .menu-item2 {
+        color: #ffffff;
+        text-align: left;
+        font: 400 12px 'Montserrat', sans-serif;
+        position: relative;
+        flex: 1;
+    }
+
+    .footer-menu-link2 {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+
+}
+@media (min-width: 992px){
+
+
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footer-prensentation {
+        display: flex;
+        flex-direction: column;
+        gap: 27px;
+        align-items: center;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        width: 250px;
+        position: relative;
+    }
+
+    .footer-presentation-groupe {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footer-logo-content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .logo-footer {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .clip-0-1-12 {
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+
+    .group {
+        align-self: stretch;
+        flex: 1;
+        position: absolute;
+        left: 3.55px;
+        top: 8.74px;
+        overflow: visible;
+    }
+
+    .footer-presentation {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footersubtitle {
+        color: #ffffff;
+        text-align: left;
+        font: 400 12px 'Montserrat', sans-serif;
+        position: relative;
+        flex: 1;
+    }
+
+    .footer-social-link {
+        display: flex;
+        flex-direction: row;
+        gap: 18px;
+        align-items: center;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .facebook-logo {
+        padding: 3px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+
+    .google-logo {
+        padding: 4px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+
+    .linkedin-logo {
+        padding: 3px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+
+    .twitter-logo {
+        padding: 3px 1px 3px 1px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+
+    .footer-navigation {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-end;
+        flex: 1;
+        position: relative;
+    }
+
+    .footer-menu-container {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: flex-end;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footer-menu-title {
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+        align-items: flex-start;
+        justify-content: center;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .menutitle {
+        color: #ffffff;
+        text-align: left;
+        font: 600 16px 'Montserrat', sans-serif;
+        position: relative;
+        flex: 1;
+    }
+
+    .footer-menu-content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footer-menu-link {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .menu-item {
+        color: #ffffff;
+        text-align: left;
+        font: 400 12px 'Montserrat', sans-serif;
+        position: relative;
+        flex: 1;
+    }
+
+    .menu-item2 {
+        color: #ffffff;
+        text-align: left;
+        font: 400 12px 'Montserrat', sans-serif;
+        position: relative;
+    }
+
+
+}
+@media (min-width: 1200px){
+
+
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footer-prensentation {
+        display: flex;
+        flex-direction: column;
+        gap: 27px;
+        align-items: center;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        width: 310px;
+        position: relative;
+    }
+
+    .footer-presentation-groupe {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footer-logo-content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .logo-footer {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .clip-0-1-12 {
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+
+    .group {
+        align-self: stretch;
+        flex: 1;
+        position: absolute;
+        left: 3.55px;
+        top: 8.74px;
+        overflow: visible;
+    }
+
+    .footer-presentation {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footersubtitle {
+        color: #ffffff;
+        text-align: left;
+        font: 400 14px 'Montserrat', sans-serif;
+        position: relative;
+        flex: 1;
+    }
+
+    .footer-social-link {
+        display: flex;
+        flex-direction: row;
+        gap: 18px;
+        align-items: center;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .facebook-logo {
+        padding: 3px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+
+    .google-logo {
+        padding: 4px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+
+    .linkedin-logo {
+        padding: 3px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+
+    .twitter-logo {
+        padding: 3px 1px 3px 1px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+
+    .footer-navigation {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-end;
+        flex: 1;
+        position: relative;
+    }
+
+    .footer-menu-container {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: flex-end;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footer-menu-title {
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+        align-items: flex-start;
+        justify-content: center;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .menutitle {
+        color: #ffffff;
+        text-align: left;
+        font: 600 16px 'Montserrat', sans-serif;
+        position: relative;
+        flex: 1;
+    }
+
+    .footer-menu-content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .footer-menu-link {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+
+    .menu-item {
+        color: #ffffff;
+        text-align: left;
+        font: 400 12px 'Montserrat', sans-serif;
+        position: relative;
+        flex: 1;
+    }
+
+
+}
+@media (min-width: 1440px){
+
+    .footer,
+    .footer * {
+        box-sizing: border-box;
+    }
+    .footer {
+        background: #0468a0;
+        padding: 20px 24px 20px 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+        flex-shrink: 0;
+        width: 1320px;
+        position: relative;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .footer-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+    .footer-prensentation {
+        display: flex;
+        flex-direction: column;
+        gap: 27px;
+        align-items: center;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        width: 310px;
+        position: relative;
+    }
+    .footer-presentation-groupe {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+    .footer-logo-content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: hidden;
+    }
+    .logo-footer {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+    .clip-0-1-12 {
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+    .group {
+        align-self: stretch;
+        flex: 1;
+        position: absolute;
+        left: 3.87px;
+        top: 10.92px;
+        overflow: visible;
+    }
+    .footer-presentation {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+    .footersubtitle {
+        color: #ffffff;
+        text-align: left;
+        font: 400 14px "Montserrat", sans-serif;
+        position: relative;
+        flex: 1;
+    }
+    .footer-social-link {
+        display: flex;
+        flex-direction: row;
+        gap: 18px;
+        align-items: center;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+    .facebook-logo {
+        padding: 3px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+    .google-logo {
+        padding: 4px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+    .linkedin-logo {
+        padding: 3px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+    .twitter-logo {
+        padding: 3px 1px 3px 1px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+        overflow: visible;
+    }
+    .footer-navigation {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-end;
+        flex: 1;
+        position: relative;
+    }
+    .footer-menu-container {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: flex-end;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+    .footer-menu-title {
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+        align-items: flex-start;
+        justify-content: center;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+    .menutitle {
+        color: #ffffff;
+        text-align: left;
+        font: 600 16px "Montserrat", sans-serif;
+        position: relative;
+        flex: 1;
+    }
+    .footer-menu-content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        position: relative;
+    }
+    .footer-menu-link {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+        align-self: stretch;
+        flex-shrink: 0;
+        position: relative;
+    }
+    .menu-item {
+        color: #ffffff;
+        text-align: left;
+        font: 400 12px "Montserrat", sans-serif;
+        position: relative;
+        flex: 1;
+    }
+
+}
