@@ -2,6 +2,7 @@
     /* Colors */
     --primarycolor: #0468a0;
     --secondarycolor: #dbad09;
+
     --whitecolor: #ffffff;
     --graycolor: #b7c8d1;
 
@@ -10,7 +11,61 @@
 
     /* Effects */
 }
-
+button{
+    cursor: pointer;
+}
 a{
     text-decoration: none;
 }
+
+.search-content input,.search-content input:focus,.search-content input:active{
+    border: none;
+}
+
+html,body{
+    min-height: 100%;
+    margin: 0;
+    overflow-x:hidden;
+
+    width: 100%;
+}
+.reparo-app,
+.reparo-app * {
+    box-sizing: border-box;
+    margin: 0;
+}
+.reparo-app {
+    background: #ffffff;
+    padding: 3px 0px 3px 0px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.reparo-wrapper {
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+
+}
+
+.container {
+    overflow-x:hidden ;
+    margin-left:auto;
+    margin-right:auto;
+}
+
